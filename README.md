@@ -1,3 +1,13 @@
+
+SERVICE WORKER --
+ng new ServiceWorkerTestis --service-worker
+
+npm i -g http-server 
+ ng build --prod
+ cd dist
+ http-server p:8080
+
+ --voila->
 # ServiceWorkerTestis
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
